@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>百度</title>
+		<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="css/fullpage.css">
+</head>
+<body>
+
+<div id="head">
+<div class="nav">
+<div class="img">
+<a href=""></a>
+</div>
+<div class="mala-f1">
+<a href="" class="malal">用户板</a>
+<a href="" class="malal">产品介绍</a>
+<a href="" class="malal">首页</a>
+
+</div>
+<div class="mala-f2">
+<a href="" class="malal">手机客户端<i></i></a>
+<div class="yinc">
+<div class="yincan-1">扫码下载</div>
+<div class="yincan-2">
+<div class="yincan-left">
+<i></i>
+<p>安卓</p>
+</div>
+<div class="yincan-right"><i></i>
+<p>ios</p></div>
+
+</div>
+
+</div>
+
+<a href="" class="malal">百度司南</a>
+<a href="" class="malal">联系我们</a>
+<a href="" class="malal " id="malal1">申请试用</a>
+
+</div>
+
+
+
+</div>
+
+</div>
+<div id="fullpage">
+  <div class="section" id="section1">1
+  <div id="login1"></div>
+  <div id="login2"></div>
+  <div id="login3">
+  <div class="logo-info1">
+  <div class="logodiv">
+<span></span>
+<input type="text" placeholder="用户名">
+  </div>
+  <div class="logodiv">
+<span></span>
+<input type="text" placeholder="密码" type="password">
+  </div>
+  <div class="logodiv">
+  <input type="text">
+  <img src="img/10.jpg" alt="">
+<div class="x">换一张</div>
+  </div>
+
+  </div>
+  <div class="logo-info2">
+<input type="submit" value="登录">
+<span></span>
+<a href="" class="inp-a">安全控件常见问题</a><a href="" class="inp-a">忘记密码</a>
+  </div>
+
+  </div>
+  <div id="login4"></div>
+  <div id="login5"></div>
+  <div id="login6"></div>
+  <div id="login7"></div>
+  <div id="login8"></div>
+  <div id="login9"></div>
+  <div id="login10"></div>
+  </div>
+  <div class="section" id="section2">2
+  <div class="objti1">
+  <h3 class="yin"></h3>
+  <div class="text">
+ <h4>数据收集与处理</h4>
+ <p>
+ 15年专业数据收集与语义</p>
+ <p>
+ 分析技术积累卓越极致，不断攀登
+ </p>
+  </div>
+
+
+  </div>
+  <div class="objti2"></div>
+  <div class="objti3"></div>
+  <div class="objti4"></div>
+  <div class="objti5"></div>
+  <div class="objti6"></div>
+  <div class="objti7"></div>
+  <div class="objti8"></div>
+
+
+
+
+
+
+
+
+  </div>
+  <div class="section" id="section3">3
+  <div class="quanq1"></div>
+  <div class="quanq2">
+
+  </div>
+  <div class="quanq3"></div>
+  <div class="quanq4"></div>
+  <div class="quanq5"></div>
+  <div class="quanq6"></div>
+  <div class="quanq7"></div>
+  <div class="quanq8"></div>
+  <div class="quanq9">
+<h3 class="yin"></h3>
+  <div class="text">
+ <h4>舆情分析逻辑与架构</h4>
+ <p>
+ 声量诊断、传播分析、情感提炼、</p>
+ <p>
+ 受众画像,有方法论，更有智慧
+ </p>
+  </div>
+
+  </div>
+
+
+  </div>
+  <div class="section" id="section4">4
+  <div class="secdivc1"></div>
+  <div class="secdivc2">
+<h3 class="yin"></h3>
+    <div class="text">
+ <h4>专业数据可视化</h4>
+ <p>
+ 非凡的数据洞悉和可视化能力</p>
+ <p>
+精研数据，惊艳所见
+ </p>
+  </div>
+
+  </div>
+  <div class="secdivc3"></div>
+  <div class="secdivc4">© 2014 Baidu使用百度前必读</div>
+
+
+  </div>
+</div>
+
+	
+
+	<script src="js/jquery.js"></script>
+	<script src="js/fullpage.js"></script>
+
+	<script>
+	$('#fullpage').fullpage(
+{
+  scrollingSpeed:300,
+  anchors:['a','b','c','d'],
+  lockAnchors:['a'],
+  continuousVertical:true,
+  navigation:true,
+  scrollOverflow:true,
+  navigationTooltips:['a','b','c','d'],
+  scrollBa:true,
+
+
+
+}
+
+    );
+
+   $('.objti8').on('click',function(){
+    $.fn.fullpage.moveSectionDown();
+  })
+    $('#login9').on('click',function(){
+    $.fn.fullpage.moveSectionDown();
+  })
+    $('.quanq8').on('click',function(){
+    $.fn.fullpage.moveSectionDown();
+  })
+	</script>
+</body>
+</html>
